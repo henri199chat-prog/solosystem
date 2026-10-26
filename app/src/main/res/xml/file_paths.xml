@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- camera app writes the new transformation photo straight into app-private storage (granted per capture) -->
+    <files-path name="transform" path="transform/" />
+    <!-- share sheet only: license card PNG / before-after MP4, written on tap -->
+    <cache-path name="share" path="share/" />
+</paths>

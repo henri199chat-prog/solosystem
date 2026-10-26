@@ -1,0 +1,9 @@
+<resources>
+    <color name="sys_bg">#FF04070D</color>
+    <style name="Theme.SoloSystem" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/sys_bg</item>
+        <item name="android:statusBarColor">@color/sys_bg</item>
+        <item name="android:navigationBarColor">@color/sys_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

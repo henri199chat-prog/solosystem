@@ -1,0 +1,8 @@
+-keepattributes *Annotation*, InnerClasses, Signature
+-dontnote kotlinx.serialization.**
+-keepclassmembers class kotlinx.serialization.json.** { *** Companion; }
+-keepclasseswithmembers class kotlinx.serialization.json.** { kotlinx.serialization.KSerializer serializer(...); }
+-keep,includedescriptorclasses class com.ayman.solosystem.**$$serializer { *; }
+-keepclassmembers class com.ayman.solosystem.** { *** Companion; }
+-keepclasseswithmembers class com.ayman.solosystem.** { kotlinx.serialization.KSerializer serializer(...); }
+-keep class com.ayman.solosystem.notify.** { *; }
